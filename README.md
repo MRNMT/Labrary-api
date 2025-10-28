@@ -1,4 +1,4 @@
-# iabrary-api
+# Liabrary-api
 
 Minimal in-memory REST API for Authors and Books (TypeScript + Express).
 
