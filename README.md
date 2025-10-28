@@ -47,7 +47,7 @@ Try with curl
 
 ```bash
 # create an author
-curl -s -X POST http://localhost:3000/authors -H 'Content-Type: application/json' -d '{"name":"Jane Doe"}' | jq
+curl -s -X POST http://localhost:3000/authors -H 'Content-Type: application/json' -d '{"name":"nelson madileng"}' | jq
 
 # create a book (replace authorId with created id)
 curl -s -X POST http://localhost:3000/books -H 'Content-Type: application/json' -d '{"title":"My Book","authorId":"1","year":2020}' | jq
@@ -55,4 +55,4 @@ curl -s -X POST http://localhost:3000/books -H 'Content-Type: application/json' 
 # list books
 curl -s http://localhost:3000/books | jq
 ```
-# Labrary-api
+# Library-api
