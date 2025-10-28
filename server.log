@@ -1,0 +1,8 @@
+nohup: ignoring input
+Server listening on http://localhost:3000
+[2025-10-28T07:37:16.233Z] POST /authors
+[2025-10-28T07:37:16.313Z] POST /books
+[2025-10-28T07:37:16.384Z] POST /books
+[2025-10-28T07:37:16.456Z] GET /books
+[2025-10-28T07:37:16.544Z] GET /authors/1/books
+[2025-10-28T07:37:29.845Z] GET /authors/1/books
